@@ -71,19 +71,23 @@ const Projects = () => {
         {cards.slice(0, visible).map((i) => (
           <div
             key={i.id}
-            className="flex flex-col justify-between bg-[#0f0f0f] border border-[#696969] h-[100%] rounded-2xl overflow-hidden shadow-2xl relative"
+            className="flex flex-col justify-between bg-[#0f0f0f] border border-[#696969] h-[100%] rounded-2xl shadow-2xl relative"
           >
-            <img className="w-[100%] object-cover" src={i.cover} />
+            <img
+              className="w-[100%] object-cover rounded-t-2xl"
+              src={i.cover}
+            />
             <h1 className="text-left font-[Saira] font-semibold text-2xl px-6 pt-4">
               {i.title}
             </h1>
             <p className="text-[1rem] font-['Saira'] font-light text-left px-6 py-4">
               {i.description}
             </p>
-            <div className=" border-t border-[#696969] flex gap-2 px-6 py-4 justify-end">
+            <div className="border-t border-[#696969] flex gap-2 h-14 px-6 py-4 items-center justify-end">
               <img
                 onClick={() => openModal(i.id)}
-                className="transition-all filter hover:brightness-200 h-6 cursor-pointer"
+                alt="view"
+                className="max-h-6 transition-all filter hover:brightness-200 cursor-pointer"
                 src={view}
               />
             </div>

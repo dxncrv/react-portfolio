@@ -28,23 +28,23 @@ export default [
     title: "ALIVE Investigator",
     cover: alive,
     description:
-      "I led the team responsible for incubation of this project at CDM, then joined the ALIVE team as a Game Development Coordinator.",
-    tags: ["PM", "3D", "UX", "Dev"],
+      "Played the roles of Project Manager and Scrum Master on Team Skyfall at CDM. We built an iOS game that helps assess learning in immersive virtual environments. Built with Unity and C#.",
+    tags: ["SM", "3D", "UX", "Dev"],
   },
   {
     id: "2",
     title: "FlashoVR",
     cover: flash,
     description:
-      "I served the team as a Scrum Master and Sprint Facilitator at CDM, then was hired for a part-time contract for redesigning a mechanic and minor improvements.",
-    tags: ["PM", "Dev", "3D", "UX"],
+      "I served as a Scrum Master and 3D Designer on Team FlashoVR at CDM. We built a fire investigation simulator for JIBC students to practice the protocols of fire investigation. Builty with Unity and C#.",
+    tags: ["SM", "Dev", "3D", "UX"],
   },
   {
     id: "3",
-    title: "Vancouver Artgallery",
+    title: "The Imitation Game",
     cover: vag,
     description:
-      "I produced media for the installed monitors; authored and sourced CGI for 2 installations in the exhibition; produced media, and styled html for the publication.",
+      "I managed, produced, sourced digital assets, and authored 2 optical installations for this exhibition at the Vancouver Artgallery. I also produced media, and styled a tooltip for its digital publication.",
     tags: ["Video", "3D", "Dev"],
   },
   {
@@ -52,7 +52,7 @@ export default [
     title: "Tebbie Towners",
     cover: towners,
     description:
-      'I designed a game to address a brief from D&AD Blood Awards 2021, "A game that is a force of good" brief set by Rare and Xbox.',
+      "Applied class insights on a concept, Tebbie Towners is a game that proposes usage of Operant Conditioning to prime empathy in the player. Result is a video artefact of the onboarding experience.",
     tags: ["UX"],
   },
   {
@@ -60,7 +60,7 @@ export default [
     title: "Clockwork",
     cover: clock,
     description:
-      "A pitch project, aiming to minimize workplace distractions and address the loss of time and money caused by it.",
+      "Applied insights of an entreprenuership class, Clockwork is a software as a service that aims to facilitate timely communication, vision alignment and clarity in task handling across teams.",
     tags: ["UX"],
   },
   {
