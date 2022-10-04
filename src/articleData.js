@@ -34,6 +34,33 @@ import {
   c_m2,
   c_m3,
   c_mdemo,
+  hh_m1,
+  hh_m2,
+  hh_m3,
+  hh_mdemo,
+  da_m1,
+  da_m2,
+  da_m3,
+  g_m1,
+  g_m2,
+  g_m3,
+  g_mdemo,
+  s_m1,
+  s_m2,
+  s_m3,
+  s_m4,
+  s_m5,
+  s_m6,
+  s_m7,
+  s_mdemo,
+  e_m1,
+  e_m2,
+  e_m3,
+  e_m4,
+  e_m5,
+  e_m6,
+  i_m1,
+  i_mdemo,
   cover_a1,
   cover_f1,
   cover_f2,
@@ -41,6 +68,12 @@ import {
   cover_c1,
   cover_a2,
   cover_d,
+  cover_hh,
+  cover_da,
+  cover_g,
+  cover_s,
+  cover_e,
+  cover_i,
 } from "./assets/article.media/index";
 
 export default [
@@ -690,6 +723,431 @@ export default [
           },
           { type: "h2", h2: "Clockwork Demo (1:00)" },
           { type: "vid", vid: c_mdemo },
+        ],
+      },
+    ],
+  },
+  {
+    id: "6",
+    articles: [
+      {
+        title: "Cross Cultural Impact Jam",
+        cover: cover_hh,
+        content: [
+          {
+            type: "p",
+            p: "I participated in an Impact Jam hosted by Games for Change. The theme of the jam was 'Amplifying voices' and the challenge was to create a game that would help amplify the voices of people who are often misunderstood. I was in a team of 4 students, each from a different country, and we created a game called 'Healing Heart' in 10 days.",
+          },
+          {
+            type: "p",
+            p: "Our team secured the honorable mention for the most creative game. The game was featured on play.unity.com and raked in 3,000 views and 2,000 plays.",
+          },
+          { type: "h1", h1: "Goal and Alignment" },
+          {
+            type: "p",
+            p: "Our goal was to create a game that encourages people to be more empathetic towards people whose speech is affected by a strong emotional state. The game has a fun mechanism which allows players to align their listening skills with the emotional state of the speaker, which when done successfully, the speaker appears human again.",
+          },
+          {
+            type: "img",
+            img: hh_m1,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "This game aims to amplify the voices of the people who feel alienated because their speech is highly vulnerable to strong emotions like anxiety, insecurity or sadness. And Healing Heart promotes the message of shifting the bias with empathetic listening and conditioning the use of kind words in these situations.",
+          },
+          {
+            type: "img",
+            img: hh_m2,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "h1",
+            h1: "Contribution",
+          },
+          {
+            type: "p",
+            p: "I was the Co-Game Designer, 3D and UI Designer, I was responsible for the game design, user interface, and designing mechanics. I also contributed to the pitch deck, represented the team for media, and facilitated the final presentation of the game.",
+          },
+          {
+            type: "img",
+            img: hh_m3,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "Watch the playthrough of the game below!",
+          },
+          {
+            type: "h2",
+            h2: "Playthrough (2:08)",
+          },
+          {
+            type: "vid",
+            vid: hh_mdemo,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "7",
+    articles: [
+      {
+        title: "Digital Activism Vol. 2",
+        cover: cover_da,
+        content: [
+          {
+            type: "p",
+            p: "I was asked to design the cover for the book Digital Activism Vol. 2, a book that explores the intersection of technology and activism. The book is a collection of essays written by the students of Center for Digital Media, edited together by Dr. Rachel Ralph.",
+          },
+          {
+            type: "h1",
+            h1: "Design",
+          },
+          {
+            type: "p",
+            p: "I had a rough idea of how I wanted the design to look, so I sketched it out and created another graphic with the colors and shapes. Then I got feedback on the design before making some changes.",
+          },
+          {
+            type: "img",
+            img: da_m1,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "As you can see,  #Tag was changed to make sure that the idea we wanted to promote, actually resonated with the audience, and more importantly, was interpretted accurately.",
+          },
+          {
+            type: "img",
+            img: da_m2,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "Then I found some 3D assets to work with and started playing around with the design. I wanted to make sure that the design was simple, yet impactful. I also wanted to make sure that the design was not too busy, and that the text was readable. The result is the cover you see above, and below is a square version for social media.",
+          },
+          {
+            type: "img",
+            img: da_m3,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "8",
+    articles: [
+      {
+        title: "The Sacred Grove",
+        cover: cover_g,
+        content: [
+          {
+            type: "p",
+            p: "The Sacred Grove is a concept proposal for the installation of an Augmented Reality game to improve the waiting area experience of a corporate building. The game is designed to be a fun and engaging experience for the visitors, while also providing them with a sense of belonging and a sense of purpose.",
+          },
+          {
+            type: "p",
+            p: "The general idea of gameplay was to compliment the tree-like columns of the room and visualize its immediate surroundings into a forest reserve, with the aim of preserving the last living trees in the world.",
+          },
+          {
+            type: "h1",
+            h1: "Creating the Assets",
+          },
+          {
+            type: "h2",
+            h2: "The Tree",
+          },
+          {
+            type: "p",
+            p: "To fit into the concept the tree needed to be old and dense. Finding the right asset that fit the description was not so hard, but the next challenge was to make it look alive.",
+          },
+          { type: "img", img: g_m1, size: "md:w-[85%] xl:w-1/2 w-full" },
+          {
+            type: "p",
+            p: " There was no actual wind or force wrap used here, to simulate the rustling of leaves, I separated the trunk from the leaves in 3Ds max and added a noise modifier on the leaves. While keeping the leaves and trunk grouped, I added a bend modifier ontop and animated it to simulate the effect of swaying. ",
+          },
+          {
+            type: "h2",
+            h2: "The Bird",
+          },
+          {
+            type: "p",
+            p: "Similarly I had to first find a fully textured and rigged bird, and fortunately I did. The interesting thing about the bird here is that it actually isn't moving in 3D space at all.",
+          },
+          { type: "img", img: g_m2, size: "md:w-[85%] xl:w-1/3 w-full" },
+          {
+            type: "p",
+            p: " I animated the bird in Maya and exported out an image sequence, then I imported the image sequence in After Effects to animate the path and scale. This gives you more flexibility and control over the path of the bird. I would not advice to do this if the camera was not steady and the environment was 3D.",
+          },
+          {
+            type: "h2",
+            h2: "The Fruits",
+          },
+          {
+            type: "p",
+            p: "These forms were supposed to be installed physically on the columns which then disappear when viewed through the Augmented Reality game application.",
+          },
+          { type: "img", img: g_m3, size: "md:w-[85%] xl:w-1/2 w-full" },
+          {
+            type: "p",
+            p: "The client gave me sketches and clay models to start with, after which I made the meshes in Zbrush and then refined them. Once we selected the final forms, I imported them in 3Ds max for final renders. The meshes are only box mapped, there was no time or need to unwrap them as they were not going to be up-close to the camera.",
+          },
+          { type: "h2", h2: "The Artefact (0:28)" },
+          { type: "vid", vid: g_mdemo },
+        ],
+      },
+    ],
+  },
+  {
+    id: "9",
+    articles: [
+      {
+        title: "Sharin",
+        cover: cover_s,
+        content: [
+          {
+            type: "p",
+            p: "A live interactive invitation ceremony for a wedding, to simulate a tradition of relative families writing the kankotri invite card through a digital medium. Starting with an animated short video of concept story-line, followed by a set of 50 personalized videos for guests, all playing in a seamless manner.",
+          },
+          {
+            type: "img",
+            img: s_m1,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "This is the map of the final execution of this event. The presentation clicker glows when the button is pressed by a family member, triggering next video. There were two audio inputs used, one from the video itself as sound effects and another being an ambient soundtrack playing separately with it. As a result, audio never breaks the ambience even if the video itself is paused on the last frame each time.",
+          },
+          {
+            type: "h1",
+            h1: "Concept",
+          },
+          {
+            type: "p",
+            p: "The concept at play here is that the tree symbolizes the beginning of a new relationship. Reddish hue in the leaves indicates the essence of life, as it turns to become precious and eternal, depicted here by the color gold.",
+          },
+          { type: "vidauto", vid: s_m2 },
+          {
+            type: "p",
+            p: " I decided for a hand drawn storybook style for the overall look, using some ornamental and flourishing elements to compliment the occasion. ",
+          },
+          {
+            type: "h1",
+            h1: "Story",
+          },
+          {
+            type: "h2",
+            h2: "The Flourish",
+          },
+          {
+            type: "p",
+            p: "There is an upward panning motion in this shot, which slowly reveals the elements in this scene. Additionally, there is an overlay of welcoming text with similar style animation.",
+          },
+          {
+            type: "vidauto",
+            vid: s_m3,
+          },
+          {
+            type: "p",
+            p: "The hierarchy of assets is complex, but mainly there are 3 aspects, the background, the tree, and the overlay. The background reveals itself with the use of an Alpha Matte, while the other two are using a Stroke Effect to achieve this. The tree itself has multiple layers that use the same technique with a delay.",
+          },
+          {
+            type: "h2",
+            h2: "The Journey",
+          },
+          {
+            type: "p",
+            p: "A Hummingbird carries the news to spread it across the world from a freshly bloomed flower on the tree.",
+          },
+          {
+            type: "vidauto",
+            vid: s_m4,
+          },
+          {
+            type: "p",
+            p: "The bird is a rig system, composed of 3D layers, made in After Effects itself. The wings are operating on a wiggle expression after defining the origin of each layer. The main body is a puppet mesh with pins that also operate on a wiggle expression. Once created, the rig system was animated as needed. The cards then fall out of the bags. The story is continued in the following section.",
+          },
+          {
+            type: "h2",
+            h2: "The Invitation",
+          },
+          {
+            type: "p",
+            p: "Cards are displayed on the screen with details of the upcoming events, the left side is for the groom's guests and the right side is for the bride's guests. For common schedules, a single card is shown. This was done using a plug-in for 3D in After Effects.",
+          },
+          {
+            type: "vidauto",
+            vid: s_m5,
+          },
+          {
+            type: "p",
+            p: "The last frame of this video there is a close-up of the logo, this serves as a transition for the next video in queue when the first family is called on stage. Please note the video is sped up by 4x for display purpose.",
+          },
+          {
+            type: "h1",
+            h1: "Interactive Ceremony",
+          },
+          {
+            type: "h2",
+            h2: "For the Groom's side",
+          },
+          {
+            type: "p",
+            p: "Once the first family is called on stage, the next video is triggered by them. Following the story, the card falls onto a table where the invitee's name is magically written, after an auspiscious tradition is performed.",
+          },
+          {
+            type: "vidauto",
+            vid: s_m6,
+          },
+          {
+            type: "p",
+            p: " The bird here is a different rig, created the same way as the other. For the feather I set the origin to it's end, and added a wiggle expression in its orientation, then drew a path to simulate the writing. The video pauses at a frame where the bird appears at rest to serve for the next transition. ",
+          },
+          {
+            type: "h2",
+            h2: "For the Bride's side",
+          },
+          {
+            type: "p",
+            p: "Upon announced, the second family approaches the stage to trigger the next video. Only this time, there are a few tweaks and additions to keep the seamlessness intact.",
+          },
+          {
+            type: "vidauto",
+            vid: s_m7,
+          },
+          {
+            type: "p",
+            p: "Then a second variation for Groom's card, without the card falling and the bird's entry, is then played for the next family. Finally, this brings us back to bride's video. Now a complete loop is formed. Production concludes by changing the text and tweaking feather path for each guest.",
+          },
+          {
+            type: "h2",
+            h2: "Full storyline and a taste of ceremony (2:16)",
+          },
+          {
+            type: "vid",
+            vid: s_mdemo,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "10",
+    articles: [
+      {
+        title: "Evokar",
+        cover: cover_e,
+        content: [
+          {
+            type: "p",
+            p: "A smart package design solution that folds and assembles straight off the press. Using only corrugated cardboard to house lampshades for shipment, this design features a single joint on the outer box and an assembly of slotted interior forms to cushion the lamp shades and strengthen the structure of the box.",
+          },
+          { type: "img", img: e_m1, size: "md:w-[85%] xl:w-3/4 w-full" },
+          {
+            type: "p",
+            p: "At first the lampshades were measured precisely from their molds, referencing their images in CAD software to get their shape and dimensions.",
+          },
+          {
+            type: "h1",
+            h1: "Design and Prototyping",
+          },
+          {
+            type: "p",
+            p: "The idea behind this design is to create a packaging solution that is easy to assemble and disassemble, and is also easy to store and transport.",
+          },
+          { type: "img", img: e_m2, size: "md:w-[85%] xl:w-3/4 w-full" },
+          {
+            type: "p",
+            p: "The design is inspired by the origami art form, and the idea of folding and unfolding a box to create a structure that is both strong and light.",
+          },
+          {
+            type: "img",
+            img: e_m3,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "h1",
+            h1: "Exterior Form",
+          },
+          {
+            type: "p",
+            p: "The boxes were classified into two categories based on the dimensions of the lamp shades. A few changes were made in design i.e. smaller top flaps and a heptagon base to account for better stability, while also keeping the form.",
+          },
+          {
+            type: "img",
+            img: e_m4,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "After the design was resolved, making the working drawings for cutting was the next step. Unwrapping the box gave us the result above, which was then modified to fit into the available material sheet.",
+          },
+          {
+            type: "h1",
+            h1: "Interior Forms",
+          },
+          {
+            type: "p",
+            p: "Once the box was ready, Interior forms were designed which served as a protection case for the lampshades. The horizontal disks prevent the box from bending or deforming and keep the product in place, while the vertical ribs hold the structure together.",
+          },
+          {
+            type: "p",
+            p: "To complete the assembly of the interior forms structure, there are 7 identical vertical pieces and 4 horizontal disks that follow the shape of the product.",
+          },
+          {
+            type: "img",
+            img: e_m5,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "The design of the interior forms above produced a lot of wastage, to counter this another option was designed, breaking the horizontal disks further into equal parts that locked onto two vertical ribs individually, This allowed for a lot less material waste but increased the cutting cost as well as labour.",
+          },
+          {
+            type: "img",
+            img: e_m6,
+            size: "md:w-[85%] xl:w-3/4 w-full",
+          },
+          {
+            type: "p",
+            p: "Although this option was not used in the final production, the idea was worth mentioning and may be viable in other cases of mass production.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "11",
+    articles: [
+      {
+        title: "Intensity",
+        cover: cover_i,
+        content: [
+          {
+            type: "p",
+            p: "I produced a realistic video flythrough for a client that was opening a new gym in the city. The purpose was to visualize the space and also help promote the opening of the space by getting prospective customers familiar with the spaces they can work with in the gym.",
+          },
+          {
+            type: "p",
+            p: "This is a solo project and modelled, textured, lit, animated and rendered the flythrough.",
+          },
+          { type: "h1", h1: "Workflow" },
+          { type: "img", img: i_m1, size: "md:w-[85%] xl:w-3/4 w-full" },
+          {
+            type: "p",
+            p: "Rendering a video with proper quality checks can prevent unwanted result and a waste of time and resource. Due to this project, I learned to keep following things in mind before rendering: enabling motion blur, thoroughly checking a low quality preview render for issues like flickering and checking high quality preview render with periodic frame jumps to ensure quality in final output.",
+          },
+          { type: "h2", h2: "Flythrough (1:18)" },
+          {
+            type: "vid",
+            vid: i_mdemo,
+          },
         ],
       },
     ],

@@ -29,7 +29,7 @@ export default [
     cover: alive,
     description:
       "Played the roles of Project Manager and Scrum Master on Team Skyfall at CDM. We built an iOS game that helps assess learning in immersive virtual environments. Built with Unity and C#.",
-    tags: ["SM", "3D", "UX", "Dev"],
+    tags: ["SM", "3D", "Dev"],
   },
   {
     id: "2",
@@ -37,7 +37,7 @@ export default [
     cover: flash,
     description:
       "I served as a Scrum Master and 3D Designer on Team FlashoVR at CDM. We built a fire investigation simulator for JIBC students to practice the protocols of fire investigation. Builty with Unity and C#.",
-    tags: ["SM", "Dev", "3D", "UX"],
+    tags: ["SM", "Dev", "3D"],
   },
   {
     id: "3",
