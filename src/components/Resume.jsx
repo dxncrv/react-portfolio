@@ -27,7 +27,7 @@ const Resume = () => {
 
   return (
     <section
-      className="flex flex-col items-center w-[100vw] h-[100%] bg-[#151515] pb-4"
+      className="flex flex-col items-center w-full h-auto bg-[#151515] pb-4"
       id="resume"
     >
       <h1 className="sm:px-4 pt-4 text-left w-[80vw] lg:w-3/4">Resume</h1>

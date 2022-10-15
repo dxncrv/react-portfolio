@@ -41,7 +41,7 @@ const Projects = () => {
   return (
     <section
       id="work"
-      className="flex flex-col items-center w-[100vw] h-[100%] bg-[#151515] pb-4"
+      className="flex flex-col items-center w-full h-auto bg-[#151515] pb-4"
     >
       <h1 className="w-[80vw] lg:w-3/4 sm:px-4 pt-4 text-left">Projects</h1>
       <div className="w-[80vw] lg:w-3/4 sm:px-4 py-4 gap-6 flex justify-center flex-wrap">

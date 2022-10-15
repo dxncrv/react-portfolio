@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="flex flex-col justify-start gap-12 items-center"
+      className="flex flex-col w-full justify-start gap-12 items-center"
     >
       <Navbar />
       <h1 className="lg:w-3/5 transition-all duration-300 text-7xl my-20 sm:text-9xl sm:mx-16">
