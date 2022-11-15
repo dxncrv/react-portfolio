@@ -3,7 +3,7 @@ export default [
     label: "experience",
     content: [
       {
-        h1: "ALIVE Research UBC, Project Manager, Producer",
+        h1: "ALIVE Research UBC - Project Manager, Producer",
         h2: "Vancouver, CA. Aug 2021 - Present",
         p: [
           "- Facilitated daily scrum meetings and task delegation, facilitated stakeholder communication, weekly demos and cohort wide presentations.",

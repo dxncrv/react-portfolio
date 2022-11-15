@@ -70,8 +70,9 @@ const Projects = () => {
       <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-cols-1 w-[80vw] lg:w-3/4 sm:p-4 py-6 gap-12">
         {cards.slice(0, visible).map((i) => (
           <div
+            onClick={() => openModal(i.id)}
             key={i.id}
-            className="flex flex-col justify-between bg-[#0f0f0f] border border-[#696969] h-[100%] rounded-2xl shadow-2xl relative"
+            className="flex flex-col justify-between bg-[#0f0f0f] border border-[#696969] h-[100%] rounded-2xl shadow-2xl relative hover:scale-105 transform transition duration-300 ease-in-out cursor-pointer"
           >
             <img
               className="w-[100%] object-cover rounded-t-2xl"
@@ -83,14 +84,6 @@ const Projects = () => {
             <p className="text-[1rem] font-['Saira'] font-light text-left px-6 py-4">
               {i.description}
             </p>
-            <div className="border-t border-[#696969] flex gap-2 h-14 px-6 py-4 items-center justify-end">
-              <img
-                onClick={() => openModal(i.id)}
-                alt="view"
-                className="max-h-6 transition-all filter hover:brightness-200 cursor-pointer"
-                src={view}
-              />
-            </div>
           </div>
         ))}
       </div>

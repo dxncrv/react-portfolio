@@ -6,7 +6,7 @@ import resume from "../assets/Aash_Resume.pdf";
 import { useState } from "react";
 
 const Resume = () => {
-  const [visible, setVisible] = useState(3);
+  const [visible, setVisible] = useState(5);
 
   const loadHandler = () => {
     setVisible((prevValue) => prevValue + 3);
@@ -32,9 +32,9 @@ const Resume = () => {
     >
       <h1 className="sm:px-4 pt-4 text-left w-[80vw] lg:w-3/4">Resume</h1>
       <div className="sm:pt-16 pt-16 items-center w-[80vw] lg:w-3/4">
-        <div className="sm:flex sm:h-[10rem] w-[100%] justify-between items-center">
+        <div className="sm:flex sm:h-[10rem] w-[100%] justify-start items-center">
           <img className="sm:h-[100%] sm:p-0 px-16" src={swirl} />
-          <div className="flex flex-col w-full sm:py-6 sm:px-16 justify-center">
+          <div className="flex flex-col w-auto sm:py-6 sm:px-16 justify-center">
             <h1 className="sm:text-[2rem] text-[1.5rem] sm:p-0 p-4 font-[Saira] uppercase font-black sm:text-left">
               Aashay Mehta
             </h1>
@@ -43,7 +43,7 @@ const Resume = () => {
             </h2>
           </div>
           <a
-            className="h-12 w-12 tt mx-16 md:block hidden"
+            className="h-10 w-10 tt mx-16 md:block hidden"
             data-tt="Download"
             href={resume}
             download
@@ -157,13 +157,6 @@ const Resume = () => {
                 </div>
               );
             })}
-            <button
-              onClick={loadHandler}
-              className="m-8"
-              hidden={hideLoadButton}
-            >
-              more
-            </button>
           </div>
         </div>
       </div>
