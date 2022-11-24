@@ -1,7 +1,6 @@
 import Modal from "./Modal";
 import list, { tooltipDict } from "../projectData";
 import { useState, useEffect } from "react";
-import view from "../assets/View.svg";
 
 const Projects = () => {
   // Declare state variables

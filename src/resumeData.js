@@ -4,7 +4,7 @@ export default [
     content: [
       {
         h1: "ALIVE Research UBC - Project Manager, Producer",
-        h2: "Vancouver, CA. Aug 2021 - Present",
+        h2: "Vancouver, CA. Jun 2021 - Present",
         p: [
           "- Facilitated daily scrum meetings and task delegation, facilitated stakeholder communication, weekly demos and cohort wide presentations.",
           "- Collaborated with Game Designer, Environment Artist and Unity Developers simultaneously with git.",
@@ -28,7 +28,7 @@ export default [
       },
       {
         h1: "Justice Institute of BC - Scrum Master, Asset TD",
-        h2: "(Industry Project via CDM) Vancouver, CA. Oct 2021 - Jun 2022",
+        h2: "(Industry Project via CDM) Vancouver, CA. Feb 2021 - Aug 2021",
         p: [
           "- Facilitated design sprints and daily scrum meetings, reminders, retrospectives and task delegations for a team of 7. ",
           "- Led the assets technical pipeline, creating workflows for producing photo realistic 3D assets and collaborated with two 3D Designers to build assets and environment. ",
@@ -83,11 +83,11 @@ export default [
       },
       {
         h1: "Design",
-        p: "2D Design, 3D Design, UX Research, UX Design, Motion and Graphics Design, Wireframing, Prototyping.",
+        p: "2D Design, 3D Design, UX Design, Motion and Graphics Design, Wireframing, Prototyping.",
       },
       {
         h1: "Development",
-        p: "HTML, CSS, JavaScript(ES6), React, Node, C#",
+        p: "HTML, CSS, JavaScript, React, C# (Unity)",
       },
     ],
   },
