@@ -3,7 +3,7 @@ export default [
     label: "experience",
     content: [
       {
-        h1: "ALIVE Research UBC - Project Manager, Producer",
+        h1: "ALIVE Research UBC - Producer, GameDev Coordinator",
         h2: "Vancouver, CA. Jun 2021 - Present",
         p: [
           "- Facilitated daily scrum meetings and task delegation, facilitated stakeholder communication, weekly demos and cohort wide presentations.",
@@ -15,7 +15,7 @@ export default [
         ],
       },
       {
-        h1: "Vancouver Artgallery - Specialist, Frontend Developer",
+        h1: "Vancouver Artgallery - Developer, Assets Coordinator",
         h2: "Vancouver, CA. Oct 2021 - Jun 2022",
         p: [
           "- Reported to the Senior Curator and Guest Curator of the gallery for the exhibition: The Imitation Game. Collaborated with the audio visual and graphics teams to produce, outsource, edit and proof digital assets for the exhibition.",
@@ -27,7 +27,7 @@ export default [
         ],
       },
       {
-        h1: "Justice Institute of BC - Scrum Master, Asset TD",
+        h1: "Justice Institute of BC - Developer, Scrum Master",
         h2: "(Industry Project via CDM) Vancouver, CA. Feb 2021 - Aug 2021",
         p: [
           "- Facilitated design sprints and daily scrum meetings, reminders, retrospectives and task delegations for a team of 7. ",
