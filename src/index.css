@@ -202,3 +202,7 @@ button:focus {
     transform: rotate(-360deg);
   }
 }
+
+.show {
+  display: flex;
+}
