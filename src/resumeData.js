@@ -15,7 +15,7 @@ export default [
         ],
       },
       {
-        h1: "Vancouver Artgallery - Developer, Assets Coordinator",
+        h1: "Vancouver Art Gallery - Developer, Assets Coordinator",
         h2: "Vancouver, CA. Oct 2021 - Jun 2022",
         p: [
           "- Reported to the Senior Curator and Guest Curator of the gallery for the exhibition: The Imitation Game. Collaborated with the audio visual and graphics teams to produce, outsource, edit and proof digital assets for the exhibition.",
